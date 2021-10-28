@@ -61,6 +61,7 @@ ModelViewer::ModelViewer(QWidget *parent) : QVTKOpenGLWidget(parent)
     axesWidget->SetViewport(0, 0, 0.1, 0.2);
     axesWidget->SetEnabled(1);
     axesWidget->InteractiveOff();
+    this->updateView();
 }
 
 ModelViewer::~ModelViewer()

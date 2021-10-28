@@ -76,7 +76,7 @@ unix {
     target.path = /usr/lib
 }
 !isEmpty(target.path): INSTALLS += target
-DESTDIR = $$PWD/../bin
+DESTDIR = E:/RadarList/RadarDemo/Bin
 #VTK
 LIBS += E:/AllDll/vtk8.0-vc14/VTK8.0_release/lib/*.lib
 INCLUDEPATH += E:/AllDll/vtk8.0-vc14/VTK8.0_release/include/vtk-8.0/
